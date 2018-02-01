@@ -25,7 +25,7 @@ Abstract:
 > of the pretrained network is crucial, allowing downstream models to mix
 > different types of semi-supervision signals.
 
-Material(s): [[ICLR 2018](https://openreview.net/forum?id=S1p31z-Ab)]
+Material(s): [[ICLR 2018](https://openreview.net/forum?id=S1p31z-Ab)] - [[Github, part of allennlp](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md)]
 
 ## Fine-tuned Language Models for Text Classification
 
