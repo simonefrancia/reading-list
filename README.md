@@ -6,6 +6,27 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## TextZoo, a New Benchmark for Reconsidering Text Classification
+
+Authors: Benyou Wang, Li Wang, Qikang Wei
+
+Abstract:
+
+> Text representation is a fundamental concern in Natural Language Processing,
+> especially in text classification. Recently, many neural network approaches
+> with delicate representation model (e.g. FASTTEXT, CNN, RNN and many hybrid
+> models with attention mechanisms) claimed that they achieved state-of-art in
+> specific text classification datasets. However, it lacks an unified benchmark
+> to compare these models and reveals the advantage of each sub-components for
+> various settings. We re-implement more than 20 popular text representation
+> models for classification in more than 10 datasets. In this paper, we
+> reconsider the text classification task in the perspective of neural network
+> and get serval effects with analysis of the above results.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1802.03656) - [GitHub](https://github.com/wabyking/TextClassificationBenchmark)]
+
+Comments: Early draft of the paper
+
 ## Fast and Accurate Reading Comprehension by Combining Self-Attention and Convolution
 
 Authors: Adams Wei Yu, David Dohan, Quoc Le, Thang Luong, Rui Zhao, Kai Chen
