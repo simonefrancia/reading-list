@@ -6,6 +6,22 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Fooling OCR Systems with Adversarial Text Images
+
+Authors: Congzheng Song, Vitaly Shmatikov
+
+Abstract:
+
+> We demonstrate that state-of-the-art optical character recognition (OCR) based
+> on deep learning is vulnerable to adversarial images. Minor modifications to
+> images of printed text, which do not change the meaning of the text to a human
+> reader, cause the OCR system to "recognize" a different text where certain
+> words chosen by the adversary are replaced by their semantic opposites. This
+> completely changes the meaning of the output produced by the OCR system and by
+> the NLP applications that use OCR for preprocessing their inputs.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1802.05385)]
+
 ## TextZoo, a New Benchmark for Reconsidering Text Classification
 
 Authors: Benyou Wang, Li Wang, Qikang Wei
