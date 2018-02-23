@@ -6,6 +6,25 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
+
+Authors: Jianbo Chen, Le Song, Martin J. Wainwright, Michael I. Jordan
+
+Abstract:
+
+> We introduce instancewise feature selection as a methodology for model
+> interpretation. Our method is based on learning a function to extract a subset
+> of features that are most informative for each given example. This feature
+> selector is trained to maximize the mutual information between selected
+> features and the response variable, where the conditional distribution of the
+> response variable given the input is the model to be explained. We develop an
+> efficient variational approximation to the mutual information, and show that
+> the resulting method compares favorably to other model explanation methods on a
+> variety of synthetic and real data sets using both quantitative metrics and
+> human evaluation.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1802.07814) - [GitHub](https://github.com/Jianbo-Lab/L2X)]
+
 ## CoVeR: Learning Covariate-Specific Vector Representations with Tensor Decompositions
 
 Authors: Kevin Tian, Teng Zhang, James Zou
