@@ -186,7 +186,7 @@ Abstract:
 > We open-source our pretrained models and code to enable adoption by the
 > community.
 
-Material(s): [[arxiv](https://arxiv.org/abs/1801.06146)]
+Material(s): [[arxiv](https://arxiv.org/abs/1801.06146)] - [[GitHub, part of fastai courses](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson4-imdb.ipynb)]
 
 ## Towards Neural Phrase-based Machine Translation
 
