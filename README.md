@@ -6,6 +6,23 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## An Analysis of Neural Language Modeling at Multiple Scales
+
+Authors: Stephen Merity, Nitish Shirish Keskar, Richard Socher
+
+Abstract:
+
+> Many of the leading approaches in language modeling introduce novel, complex
+> and specialized architectures. We take existing state-of-the-art word level
+> language models based on LSTMs and QRNNs and extend them to both larger
+> vocabularies as well as character-level granularity. When properly tuned, LSTMs
+> and QRNNs achieve state-of-the-art results on character-level (Penn Treebank,
+> enwik8) and word-level (WikiText-103) datasets, respectively. Results are
+> obtained in only 12 hours (WikiText-103) to 2 days (enwik8) using a single
+> modern GPU.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1803.08240)]
+
 ## Word2Bits - Quantized Word Vectors
 
 Author: Maximilian Lam
