@@ -6,6 +6,19 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Mittens: An Extension of GloVe for Learning Domain-Specialized Representations
+
+Authors: Nicholas Dingwall, Christopher Potts
+
+Abstract:
+
+> We present a simple extension of the GloVe representation learning model that
+> begins with general-purpose representations and updates them based on data from
+> a specialized domain. We show that the resulting representations can lead to
+> faster learning and better results on a variety of tasks.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1803.09901)] - [[GitHub](https://github.com/roamanalytics/mittens)]
+
 ## An Analysis of Neural Language Modeling at Multiple Scales
 
 Authors: Stephen Merity, Nitish Shirish Keskar, Richard Socher
