@@ -26,6 +26,10 @@ Abstract:
 
 Material(s): [[arxiv](https://arxiv.org/abs/1803.11407)]
 
+Comments: References are broken. Baseline is not really strong. The resulting
+BLEU-score of 23.74 for English-German is much lower than [Luong and
+Manning](https://arxiv.org/abs/1508.04025) reported (25.9) in 2015!
+
 ## Investigating Capsule Networks with Dynamic Routing for Text Classification
 
 Authors: Wei Zhao, Jianbo Ye, Min Yang, Zeyang Lei, Suofei Zhang, Zhou Zhao
