@@ -6,6 +6,26 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Fine-Grained Attention Mechanism for Neural Machine Translation
+
+Authors: Heeyoul Choi, Kyunghyun Cho, Yoshua Bengio
+
+Abstract:
+
+> Neural machine translation (NMT) has been a new paradigm in machine
+> translation, and the attention mechanism has become the dominant approach with
+> the state-of-the-art records in many language pairs. While there are variants
+> of the attention mechanism, all of them use only temporal attention where one
+> scalar value is assigned to one context vector corresponding to a source word.
+> In this paper, we propose a fine-grained (or 2D) attention mechanism where each
+> dimension of a context vector will receive a separate attention score. In
+> experiments with the task of En-De and En-Fi translation, the fine-grained
+> attention method improves the translation quality in terms of BLEU score. In
+> addition, our alignment analysis reveals how the fine-grained attention
+> mechanism exploits the internal structure of context vectors.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1803.11407)]
+
 ## Investigating Capsule Networks with Dynamic Routing for Text Classification
 
 Authors: Wei Zhao, Jianbo Ye, Min Yang, Zeyang Lei, Suofei Zhang, Zhou Zhao
