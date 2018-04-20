@@ -6,6 +6,24 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## The unreasonable effectiveness of the forget gate
+
+Authors: Jos van der Westhuizen, Joan Lasenby
+
+Abstract:
+
+> Given the success of the gated recurrent unit, a natural question is whether
+> all the gates of the long short-term memory (LSTM) network are necessary.
+> Previous research has shown that the forget gate is one of the most important
+> gates in the LSTM. Here we show that a forget-gate-only version of the LSTM
+> with chrono-initialized biases, not only provides computational savings but
+> outperforms the standard LSTM on multiple benchmark datasets and competes with
+> some of the best contemporary models. Our proposed network, the JANET, achieves
+> accuracies of 99% and 92.5% on the MNIST and pMNIST datasets, outperforming the
+> standard LSTM which yields accuracies of 98.5% and 91%.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1804.04849)]
+
 ## When and Why are Pre-trained Word Embeddings Useful for Neural Machine Translation?
 
 Authors: Ye Qi, Devendra Singh Sachan, Matthieu Felix, Sarguna Janani Padmanabhan, Graham Neubig
