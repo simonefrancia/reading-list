@@ -22,7 +22,7 @@ Abstract:
 > accuracies of 99% and 92.5% on the MNIST and pMNIST datasets, outperforming the
 > standard LSTM which yields accuracies of 98.5% and 91%.
 
-Material(s): [[arxiv](https://arxiv.org/abs/1804.04849)]
+Material(s): [[arxiv](https://arxiv.org/abs/1804.04849)] - [[GitHub](https://github.com/JosvanderWesthuizen/janet)]
 
 ## When and Why are Pre-trained Word Embeddings Useful for Neural Machine Translation?
 
