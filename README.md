@@ -22,7 +22,7 @@ Abstract:
 > such embeddings can be surprisingly effective in some cases -- providing gains
 > of up to 20 BLEU points in the most favorable setting.
 
-Materials(s): [[arxiv](https://arxiv.org/abs/1804.06323)] - [[GitHub](https://github.com/neulab/word-embeddings-for-nmt)]
+Material(s): [[arxiv](https://arxiv.org/abs/1804.06323)] - [[GitHub](https://github.com/neulab/word-embeddings-for-nmt)]
 
 ## Adafactor: Adaptive Learning Rates with Sublinear Memory Cost
 
@@ -47,7 +47,7 @@ Abstract:
 > storage in the optimizer. Finally, we propose scaling the parameter updates
 > based on the scale of the parameters themselves.
 
-Materials(s): [[arxiv](https://arxiv.org/abs/1804.04235)]
+Material(s): [[arxiv](https://arxiv.org/abs/1804.04235)]
 
 ## Fine-Grained Attention Mechanism for Neural Machine Translation
 
@@ -140,7 +140,7 @@ Abstract:
 > vectors but also outperform them on word similarity tasks and question
 > answering.
 
-Material(s): [[arxiv](https://arxiv.org/abs/1803.05651) - [GitHub](https://github.com/agnusmaximus/Word2Bits)]
+Material(s): [[arxiv](https://arxiv.org/abs/1803.05651)] - [[GitHub](https://github.com/agnusmaximus/Word2Bits)]
 
 ## FEVER: a large-scale dataset for Fact Extraction and VERification
 
@@ -165,7 +165,7 @@ Abstract:
 > challenging testbed that will help stimulate progress on claim verification
 > against textual sources.
 
-Material(s): [[arxiv](https://arxiv.org/abs/1803.05355) - [Website](https://sheffieldnlp.github.io/fever/)]
+Material(s): [[arxiv](https://arxiv.org/abs/1803.05355)] - [[Website](https://sheffieldnlp.github.io/fever/)]
 
 Comments: Really interesting, new problem. I'm going to take part in that
           competition.
@@ -187,7 +187,7 @@ Abstract:
 > variety of synthetic and real data sets using both quantitative metrics and
 > human evaluation.
 
-Material(s): [[arxiv](https://arxiv.org/abs/1802.07814) - [GitHub](https://github.com/Jianbo-Lab/L2X)]
+Material(s): [[arxiv](https://arxiv.org/abs/1802.07814)] - [[GitHub](https://github.com/Jianbo-Lab/L2X)]
 
 ## CoVeR: Learning Covariate-Specific Vector Representations with Tensor Decompositions
 
@@ -253,7 +253,7 @@ Abstract:
 > reconsider the text classification task in the perspective of neural network
 > and get serval effects with analysis of the above results.
 
-Material(s): [[arxiv](https://arxiv.org/abs/1802.03656) - [GitHub](https://github.com/wabyking/TextClassificationBenchmark)]
+Material(s): [[arxiv](https://arxiv.org/abs/1802.03656)] - [[GitHub](https://github.com/wabyking/TextClassificationBenchmark)]
 
 Comments: Early draft of the paper
 
