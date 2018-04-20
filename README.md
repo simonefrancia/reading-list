@@ -6,6 +6,24 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## When and Why are Pre-trained Word Embeddings Useful for Neural Machine Translation?
+
+Authors: Ye Qi, Devendra Singh Sachan, Matthieu Felix, Sarguna Janani Padmanabhan, Graham Neubig
+
+Abstract:
+
+> The performance of Neural Machine Translation (NMT) systems often suffers in
+> low-resource scenarios where sufficiently large-scale parallel corpora cannot
+> be obtained. Pre-trained word embeddings have proven to be invaluable for
+> improving performance in natural language analysis tasks, which often suffer
+> from paucity of data. However, their utility for NMT has not been extensively
+> explored. In this work, we perform five sets of experiments that analyze when
+> we can expect pre-trained word embeddings to help in NMT tasks. We show that
+> such embeddings can be surprisingly effective in some cases -- providing gains
+> of up to 20 BLEU points in the most favorable setting.
+
+Materials(s): [[arxiv](https://arxiv.org/abs/1804.06323)] - [[GitHub](https://github.com/neulab/word-embeddings-for-nmt)]
+
 ## Adafactor: Adaptive Learning Rates with Sublinear Memory Cost
 
 Authors: Noam Shazeer, Mitchell Stern
