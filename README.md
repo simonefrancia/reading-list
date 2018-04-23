@@ -6,6 +6,32 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Phrase-Based & Neural Unsupervised Machine Translation
+
+Authors: Guillaume Lample, Myle Ott, Alexis Conneau, Ludovic Denoyer, Marc'Aurelio Ranzato
+
+Abstract:
+
+> Machine translation systems achieve near human-level performance on some
+> languages, yet their effectiveness strongly relies on the availability of large
+> amounts of bitexts, which hinders their applicability to the majority of
+> language pairs. This work investigates how to learn to translate when having
+> access to only large monolingual corpora in each language. We propose two model
+> variants, a neural and a phrase-based model. Both versions leverage automatic
+> generation of parallel data by backtranslating with a backward model operating
+> in the other direction, and the denoising effect of a language model trained on
+> the target side. These models are significantly better than methods from the
+> literature, while being simpler and having fewer hyper-parameters. On the
+> widely used WMT14 English-French and WMT16 German-English benchmarks, our
+> models respectively obtain 27.1 and 23.6 BLEU points without using a single
+> parallel sentence, outperforming the state of the art by more than 11 BLEU
+> points.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1804.07755)]
+
+Comments: Nice new SOTA results, but **unfortunately** no implementation is
+          currently provided, so the results are **not** reproducible.
+
 ## GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding
 
 Authors: Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman
