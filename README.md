@@ -6,6 +6,23 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Exploiting Semantics in Neural Machine Translation with Graph Convolutional Networks
+
+Authors: Yichao Lu, Phillip Keung, Faisal Ladhak, Vikas Bhardwaj, Shaonan Zhang, Jason Sun
+
+Abstract:
+
+> Semantic representations have long been argued as potentially useful for
+> enforcing meaning preservation and improving generalization performance of
+> machine translation methods. In this work, we are the first to incorporate
+> information about predicate-argument structure of source sentences (namely,
+> semantic-role representations) into neural machine translation. We use Graph
+> Convolutional Networks (GCNs) to inject a semantic bias into sentence encoders
+> and achieve improvements in BLEU scores over the linguistic-agnostic and
+> syntax-aware versions on the English--German language pair.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1804.08313)]
+
 ## Adversarial Example Generation with Syntactically Controlled Paraphrase Networks
 
 Authors: Mohit Iyyer, John Wieting, Kevin Gimpel, Luke Zettlemoyer
