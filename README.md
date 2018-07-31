@@ -6,6 +6,39 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Contextual String Embeddings for Sequence Labeling
+
+Authors: Alan Akbik, Duncan Blythe, Roland Vollgraf
+
+Abstract:
+
+> Recent advances in language modeling using recurrent neural networks
+> have made it viable to model language as distributions over characters.
+> By learning to predict the next character on the basis of previous
+> characters, such models have been shown to automatically internalize
+> linguistic concepts such as words, sentences, subclauses and even
+> sentiment. In this paper, we propose to leverage the internal states of
+> a trained character language model to produce a novel type of word
+> embedding which we refer to as contextual string embeddings. Our
+> proposed embeddings have the distinct properties that they (a) are
+> trained without any explicit notion of words and thus fundamentally
+> model words as sequences of characters, and (b) are contextualized by
+> their surrounding text, meaning that the same word will have different
+> embeddings depending on its contextual use. We conduct a comparative
+> evaluation against previous embeddings and find that our embeddings are
+> highly useful for downstream tasks: across four classic sequence
+> labeling tasks we consistently outperform the previous
+> state-of-the-art. In particular, we significantly outperform previous
+> work on English and German named entity recognition (NER), allowing us
+> to report new state-of-the-art F1-scores on the CONLL03 shared task.
+
+Material(s): [[Paper](https://drive.google.com/file/d/17yVpFA7MmXaQFTe-HDpZuqw9fJlmzg56/view)] - [[GitHub](https://github.com/zalandoresearch/flair)]
+
+Comments: New SOTAs in NER, POS and chunking.
+          Clean and awesome implementation is available.
+          Well written and detailed documentation for reproducing the
+          results *is* also available. Accepted at COLING 2018.
+
 ## Neural Factor Graph Models for Cross-lingual Morphological Tagging
 
 Authors: Chaitanya Malaviya, Matthew R. Gormley, Graham Neubig
