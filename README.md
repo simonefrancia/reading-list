@@ -6,6 +6,26 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Character-Level Language Modeling with Deeper Self-Attention
+
+Authors: Rami Al-Rfou, Dokook Choe, Noah Constant, Mandy Guo, Llion Jones
+
+Abstract:
+
+> LSTMs and other RNN variants have shown strong performance on
+> character-level language modeling. These models are typically trained
+> using truncated backpropagation through time, and it is common to
+> assume that their success stems from their ability to remember
+> long-term contexts. In this paper, we show that a deep (64-layer)
+> transformer model with fixed context outperforms RNN variants by a
+> large margin, achieving state of the art on two popular benchmarks-
+> 1.13 bits per character on text8 and 1.06 on enwik8. To get good
+> results at this depth, we show that it is important to add auxiliary
+> losses, both at intermediate network layers and intermediate sequence
+> positions.
+
+Material(s): [[arxiv](https://arxiv.org/abs/1808.04444)]
+
 ## Contextual String Embeddings for Sequence Labeling
 
 Authors: Alan Akbik, Duncan Blythe, Roland Vollgraf
