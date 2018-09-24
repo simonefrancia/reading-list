@@ -6,6 +6,33 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## FRAGE: Frequency-Agnostic Word Representation
+
+Authors: Chengyue Gong, Di He, Xu Tan, Tao Qin, Liwei Wang, Tie-Yan Liu
+
+Abstract:
+
+> Continuous word representation (aka word embedding) is a basic
+> building block in many neural network-based models used in natural
+> language processing tasks. Although it is widely accepted that words
+> with similar semantics should be close to each other in the embedding
+> space, we find that word embeddings learned in several tasks are biased
+> towards word frequency: the embeddings of high-frequency and
+> low-frequency words lie in different subregions of the embedding space,
+> and the embedding of a rare word and a popular word can be far from
+> each other even if they are semantically similar. This makes learned
+> word embeddings ineffective, especially for rare words, and
+> consequently limits the performance of these neural network models. In
+> this paper, we develop a neat, simple yet effective way to learn
+> *FRequency-AGnostic word Embedding* (FRAGE) using adversarial
+> training. We conducted comprehensive studies on ten datasets across
+> four natural language processing tasks, including word similarity,
+> language modeling, machine translation and text classification. Results
+> show that with FRAGE, we achieve higher performance than the baselines
+> in all tasks.
+
+Material(s): [[Paper](https://arxiv.org/abs/1809.06858)] - [[GitHub](https://github.com/ChengyueGongR/Frequency-Agnostic)]
+
 ## Pervasive Attention: 2D Convolutional Neural Networks for Sequence-to-Sequence Prediction
 
 Authors: Maha Elbayad, Laurent Besacier, Jakob Verbeek
