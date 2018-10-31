@@ -27,7 +27,7 @@ Abstract:
 > question answering Test F1 to 93.2 (1.5% absolute improvement), outperforming
 > human performance by 2.0%.
 
-Material(s): [[Paper](https://arxiv.org/abs/1810.04805)] - [[GitHub](https://github.com/google-research/language/bert) (soon)]
+Material(s): [[Paper](https://arxiv.org/abs/1810.04805)] - [[GitHub](https://github.com/google-research/bert)]
 
 Comments: New deep bidirectional architecture for language understanding.
           Computationally ridiculous, *BERT_large* uses 256 TPU-days?!
