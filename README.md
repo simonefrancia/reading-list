@@ -6,6 +6,30 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## What do you learn from context? Probing for sentence structure in contextualized word representations
+
+Authors: Anonymous
+
+Abstract:
+
+> Contextualized representation models such as CoVe (McCann et al., 2017)
+> and ELMo (Peters et al., 2018a) have recently achieved state-of-the-art
+> results on a diverse array of downstream NLP tasks. Building on recent
+> token-level probing work, we introduce a novel edge probing task design
+> and construct a broad suite of sub-sentence tasks derived from the
+> traditional structured NLP pipeline. We probe word-level contextual
+> representations from three recent models and investigate how they
+> encode sentence structure across a range of syntactic, semantic, local,
+> and long-range phenomena. We find that ELMo encodes linguistic
+> structure at the word level better than other comparable models, and
+> that existing models trained on language modeling and translation
+> produce strong representations for syntactic phenomena, but only offer
+> small improvements on semantic tasks over a noncontextual baseline.
+
+Material(s): [[Paper](https://openreview.net/forum?id=SJzSgnRcKX)]
+
+Comments: Under review as a conference paper at ICLR 2019
+
 ## BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 Authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
