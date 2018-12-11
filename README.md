@@ -6,6 +6,60 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Semi-Supervised Sequence Modeling with Cross-View Training
+
+Abstract:
+
+> Unsupervised representation learning algorithms such as word2vec and
+> ELMo improve the accuracy of many supervised NLP models, mainly because
+> they can take advantage of large amounts of unlabeled text. However,
+> the supervised models only learn from task-specific labeled data during
+> the main training phase. We therefore propose Cross-View Training
+> (CVT), a semi-supervised learning algorithm that improves the
+> representations of a Bi-LSTM sentence encoder using a mix of labeled
+> and unlabeled data. On labeled examples, standard supervised learning
+> is used. On unlabeled examples, CVT teaches auxiliary prediction
+> modules that see restricted views of the input (e.g., only part of a
+> sentence) to match the predictions of the full model seeing the whole
+> input. Since the auxiliary modules and the full model share
+> intermediate representations, this in turn improves the full model.
+> Moreover, we show that CVT is particularly effective when combined with
+> multi-task learning. We evaluate CVT on five sequence tagging tasks,
+> machine translation, and dependency parsing, achieving state-of-the-art
+> results.
+
+Material(s): [[Paper](https://arxiv.org/abs/1809.08370)]
+
+## A Named Entity Recognition Shootout for German
+
+Authors: Martin Riedl, Sebastian Padó
+
+Abstract:
+
+> We ask how to practically build a model for
+> German named entity recognition (NER)
+> that performs at the state of the art for both
+> contemporary and historical texts,  i.e., a
+> big-data and a small-data scenario. The two
+> best-performing model families are pitted
+> against each other (linear-chain CRFs and
+> BiLSTM) to observe the trade-off between
+> expressiveness and data requirements. BiL-
+> STM  outperforms  the  CRF  when  large
+> datasets are available and performs infe-
+> rior  for  the  smallest  dataset. BiLSTMs
+> profit substantially from transfer learning,
+> which enables them to be trained on multi-
+> ple corpora, resulting in a new state-of-the-
+> art model for German NER on two contem-
+> porary German corpora (CoNLL 2003 and
+> GermEval 2014) and two historic corpora.
+
+Material(s): [[Paper](http://aclweb.org/anthology/P18-2020.pdf)]
+
+Comments: Many thanks to Martin Riedl for providing the datasets used
+          in that paper 👍
+
 ## Recurrently Controlled Recurrent Networks
 
 Authors: Yi Tay, Luu Anh Tuan, Siu Cheung Hui
