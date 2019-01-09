@@ -6,6 +6,33 @@ architectures, classification, neural machine translation and many more.
 
 # 2018
 
+## Transformer-XL: Language Modeling with Longer-Term Dependency
+
+Authors: Zihang Dai, Zhilin Yang, Yiming Yang, William W. Cohen, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov
+
+Abstract:
+
+> We propose a novel neural architecture, Transformer-XL, for modeling
+> longer-term dependency. To address the limitation of fixed-length
+> contexts, we introduce a notion of recurrence by reusing the
+> representations from the history. Empirically, we show state-of-the-art
+> (SoTA) results on both word-level and character-level language modeling
+> datasets, including WikiText-103, One Billion Word, Penn Treebank, and
+> enwiki8. Notably, we improve the SoTA results from 1.06 to 0.99 in bpc
+> on enwiki8, from 33.0 to 18.9 in perplexity on WikiText-103, and from
+> 28.0 to 23.5 in perplexity on One Billion Word. Performance improves
+> when the attention length increases during evaluation, and our best
+> model attends to up to 1,600 words and 3,800 characters. To quantify
+> the effective length of dependency, we devise a new metric and show
+> that on WikiText-103 Transformer-XL manages to model dependency that is
+> about 80% longer than recurrent networks and 450% longer than
+> Transformer. Moreover, Transformer-XL is up to 1,800+ times faster than
+> vanilla Transformer during evaluation.
+
+Materials(s): [[Paper](https://openreview.net/forum?id=HJePno0cYm)] - [[GitHub](https://github.com/kimiyoung/transformer-xl)]
+
+# 2018
+
 ## DTMT: A Novel Deep Transition Architecture for Neural Machine Translation
 
 Abstract:
