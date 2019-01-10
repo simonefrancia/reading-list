@@ -4,7 +4,7 @@ This repository contains my reading list for deep learning research. Topics
 are mainly: relation extraction, reading comprehension, neural network
 architectures, classification, neural machine translation and many more.
 
-# 2018
+# 2019
 
 ## Transformer-XL: Language Modeling with Longer-Term Dependency
 
