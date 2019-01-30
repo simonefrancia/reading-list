@@ -6,6 +6,36 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## Pay Less Attention with Lightweight and Dynamic Convolutions
+
+Authors: Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli
+
+Abstract:
+
+> Self-attention is a useful mechanism to build generative models for
+> language and images. It determines the importance of context elements
+> by comparing each element to the current time step. In this paper, we
+> show that a very lightweight convolution can perform competitively to
+> the best reported self-attention results. Next, we introduce dynamic
+> convolutions which are simpler and more efficient than self-attention.
+> We predict separate convolution kernels based solely on the current
+> time-step in order to determine the importance of context elements. The
+> number of operations required by this approach scales linearly in the
+> input length, whereas self-attention is quadratic. Experiments on
+> large-scale machine translation, language modeling and abstractive
+> summarization show that dynamic convolutions improve over strong
+> self-attention models. On the WMT'14 English-German test set dynamic
+> convolutions achieve a new state of the art of 29.7 BLEU.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1901.10430)] - [[Fairseq Implementation](https://github.com/pytorch/fairseq/pull/473)]
+
+Comments: Well written paper, strong baselines. I'll definitely try it
+out and report results in my
+[English-Macedonian](https://github.com/stefan-it/nmt-en-mk)
+and [English-Vietnamese](https://github.com/stefan-it/nmt-en-vi) repos.
+Result for language modeling on Billion Word test set is lower than
+the reported one in the Transformer-XL paper.
+
 ## Cross-lingual Language Model Pretraining
 
 Authors: Guillaume Lample, Alexis Conneau
