@@ -6,6 +6,24 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks
+
+Authors: Matthew Peters, Sebastian Ruder, Noah A. Smith
+
+Abstract:
+
+While most previous work has focused on different pretraining objectives and
+architectures for transfer learning, we ask how to best adapt the pretrained
+model to a given target task. We focus on the two most common forms of
+adaptation, feature extraction (where the pretrained weights are frozen), and
+directly fine-tuning the pretrained model. Our empirical results across diverse
+NLP tasks with two state-of-the-art models show that the relative performance
+of fine-tuning vs. feature extraction depends on the similarity of the
+pretraining and target tasks. We explore possible explanations for this
+finding and provide a set of adaptation guidelines for the NLP practitioner.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1903.05987)]
+
 ## Parameter-Efficient Transfer Learning for NLP
 
 Authors: Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly
