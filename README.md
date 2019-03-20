@@ -6,21 +6,42 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## Cloze-driven Pretraining of Self-attention Networks
+
+Authors: Alexei Baevski, Sergey Edunov, Yinhan Liu, Luke Zettlemoyer, Michael Auli
+
+Abstract:
+
+> We present a new approach for pretraining a bi-directional transformer model
+> that provides significant performance gains across a variety of language
+> understanding problems. Our model solves a cloze-style word reconstruction
+> task, where each word is ablated and must be predicted given the rest of the
+> text. Experiments demonstrate large performance gains on GLUE and new state of
+> the art results on NER as well as constituency parsing benchmarks, consistent
+> with the concurrently introduced BERT model. We also present a detailed analysis
+> of a number of factors that contribute to effective pretraining, including data
+> domain and size, model capacity, and variations on the cloze objective. 
+
+Materials(s): [[Paper](https://arxiv.org/abs/1903.07785)]
+
+Comments: New SOTA e.g. for NER. With the large CNN model (+ fine-tuning) a
+F1-Score of 93.5% can be achieved.
+
 ## To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks
 
 Authors: Matthew Peters, Sebastian Ruder, Noah A. Smith
 
 Abstract:
 
-While most previous work has focused on different pretraining objectives and
-architectures for transfer learning, we ask how to best adapt the pretrained
-model to a given target task. We focus on the two most common forms of
-adaptation, feature extraction (where the pretrained weights are frozen), and
-directly fine-tuning the pretrained model. Our empirical results across diverse
-NLP tasks with two state-of-the-art models show that the relative performance
-of fine-tuning vs. feature extraction depends on the similarity of the
-pretraining and target tasks. We explore possible explanations for this
-finding and provide a set of adaptation guidelines for the NLP practitioner.
+> While most previous work has focused on different pretraining objectives and
+> architectures for transfer learning, we ask how to best adapt the pretrained
+> model to a given target task. We focus on the two most common forms of
+> adaptation, feature extraction (where the pretrained weights are frozen), and
+> directly fine-tuning the pretrained model. Our empirical results across diverse
+> NLP tasks with two state-of-the-art models show that the relative performance
+> of fine-tuning vs. feature extraction depends on the similarity of the
+> pretraining and target tasks. We explore possible explanations for this
+> finding and provide a set of adaptation guidelines for the NLP practitioner.
 
 Materials(s): [[Paper](https://arxiv.org/abs/1903.05987)]
 
