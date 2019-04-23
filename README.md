@@ -6,7 +6,9 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
-Authors: Pooled Contextualized Embeddings for Named Entity Recognition
+## Pooled Contextualized Embeddings for Named Entity Recognition
+
+Authors: Alan Akbik, Tanja Bergmann, Roland Vollgraf
 
 Abstract:
 
