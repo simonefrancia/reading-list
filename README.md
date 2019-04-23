@@ -6,6 +6,30 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## Rare Words: A Major Problem for Contextualized Embeddings And How to Fix it by Attentive Mimicking
+
+Authors: Timo Schick, Hinrich Schütze
+
+Abstract:
+
+> Pretraining deep neural network architectures with a language modeling objective
+> has brought large improvements for many natural language processing tasks.
+> Exemplified by BERT, a recently proposed such architecture, we demonstrate that
+> despite being trained on huge amounts of data, deep language models still
+> struggle to understand rare words. To fix this problem, we adapt
+> Attentive Mimicking, a method that was designed to explicitly learn embeddings
+> for rare words, to deep language models. In order to make this possible, we
+> introduce one-token approximation, a procedure that enables us to use Attentive
+> Mimicking even when the underlying language model uses subword-based
+> tokenization, i.e., it does not assign embeddings to all words. To evaluate our
+> method, we create a novel dataset that tests the ability of language models to
+> capture semantic properties of words without any task-specific fine-tuning.
+> Using this dataset, we show that adding our adapted version of Attentive
+> Mimicking to BERT does indeed substantially improve its understanding of rare
+> words.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1904.06707)] - [[GitHub implementation of the form-context model](https://github.com/timoschick/form-context-model)]
+
 ## Pooled Contextualized Embeddings for Named Entity Recognition
 
 Authors: Alan Akbik, Tanja Bergmann, Roland Vollgraf
