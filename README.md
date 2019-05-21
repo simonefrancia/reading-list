@@ -6,6 +6,21 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## Adaptive Attention Span in Transformers
+
+Authors: Sainbayar Sukhbaatar, Edouard Grave, Piotr Bojanowski, Armand Joulin
+
+Abstract:
+
+> We propose a novel self-attention mechanism that can learn its optimal attention
+> span. This allows us to extend significantly the maximum context size used in
+> Transformer, while maintaining control over their memory footprint and
+> computational time. We show the effectiveness of our approach on the task of
+> character level language modeling, where we achieve state-of-the-art
+> performances on text8 and enwiki8 by using a maximum context of 8k characters.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1905.07799)]
+
 ## Unified Language Model Pre-training for Natural Language Understanding and Generation
 
 Authors: Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon
