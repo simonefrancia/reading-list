@@ -6,6 +6,31 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## Sequence Tagging with Contextual and Non-Contextual Subword Representations: A Multilingual Evaluation
+
+Authors: Benjamin Heinzerling, Michael Strube
+
+Abstract:
+
+> Pretrained contextual and non-contextual subword embeddings have become
+> available in over 250 languages, allowing massively multilingual NLP.
+> However, while there is no dearth of pretrained embeddings, the distinct lack
+> of systematic evaluations makes it difficult for practitioners to choose
+> between them. In this work, we conduct an extensive evaluation comparing
+> non-contextual subword embeddings, namely FastText and BPEmb, and a contextual
+> representation method, namely BERT, on multilingual named entity recognition
+> and part-of-speech tagging. We find that overall, a combination of BERT,
+> BPEmb, and character representations works best across languages and tasks.
+> A more detailed analysis reveals different strengths and weaknesses:
+> Multilingual BERT performs well in medium- to high-resource languages, but is
+> outperformed by non-contextual subword embeddings in a low-resource setting.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1906.01569)]
+
+Comments: What a great multi-lingual evaluation on over 250 languages! New SOTA
+for PoS tagging on Universal Dependencies. The *MultiBPEmb* model will be
+included into [bpemb](https://github.com/bheinzerling/bpemb) soon!
+
 ## Adaptive Attention Span in Transformers
 
 Authors: Sainbayar Sukhbaatar, Edouard Grave, Piotr Bojanowski, Armand Joulin
