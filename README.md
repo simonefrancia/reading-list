@@ -6,6 +6,28 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## Distilling Task-Specific Knowledge from BERT into Simple Neural Networks
+
+Authors: Raphael Tang, Yao Lu, Linqing Liu, Lili Mou, Olga Vechtomova, Jimmy Lin
+
+Abstract:
+
+> In the natural language processing literature, neural networks are becoming
+> increasingly deeper and complex. The recent poster child of this trend is the
+> deep language representation model, which includes BERT, ELMo, and GPT. These
+> developments have led to the conviction that previous-generation, shallower
+> neural networks for language understanding are obsolete. In this paper,
+> however, we demonstrate that rudimentary, lightweight neural networks can
+> still be made competitive without architecture changes, external training data,
+> or additional input features. We propose to distill knowledge from BERT,
+> a state-of-the-art language representation model, into a single-layer BiLSTM,
+> as well as its siamese counterpart for sentence-pair tasks. Across multiple
+> datasets in paraphrasing, natural language inference, and sentiment
+> classification, we achieve comparable results with ELMo, while using roughly
+> 100 times fewer parameters and 15 times less inference time.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1903.12136)]
+
 ## Hierarchically-Refined Label Attention Network for Sequence Labeling
 
 Authors: Leyang Cui, Yue Zhang
@@ -25,7 +47,7 @@ Abstract:
 > with similar number of parameters, but also significantly speeds up the
 > training and testing compared to BiLSTM-CRF.
 
-Materials(s): [[Paper](https://arxiv.org/abs/1908.08676) - [GitHub repo](https://github.com/Nealcly/LAN)]
+Materials(s): [[Paper](https://arxiv.org/abs/1908.08676)] - [[GitHub repo](https://github.com/Nealcly/LAN)]
 
 ## RoBERTa: A Robustly Optimized BERT Pretraining Approach
 
@@ -46,7 +68,7 @@ Abstract:
 > choices, and raise questions about the source of recently reported improvements.
 > We release our models and code.
 
-Materials(s): [[Paper](https://arxiv.org/abs/1907.11692) - [`fairseq` GitHub repo](https://github.com/pytorch/fairseq)]
+Materials(s): [[Paper](https://arxiv.org/abs/1907.11692)] - [[`fairseq` GitHub repo](https://github.com/pytorch/fairseq)]
 
 ## Sequence Tagging with Contextual and Non-Contextual Subword Representations: A Multilingual Evaluation
 
