@@ -6,6 +6,48 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## Hierarchically-Refined Label Attention Network for Sequence Labeling
+
+Authors: Leyang Cui, Yue Zhang
+
+Abstract:
+
+> CRF has been used as a powerful model for statistical sequence labeling.
+> For neural sequence labeling, however, BiLSTM-CRF does not always lead to
+> better results compared with BiLSTM-softmax local classification. This can be
+> because the simple Markov label transition model of CRF does not give much
+> information gain over strong neural encoding. For better representing label
+> sequences, we investigate a hierarchically-refined label attention network,
+> which explicitly leverages label embeddings and captures potential long-term
+> label dependency by giving each word incrementally refined label distributions
+> with hierarchical attention. Results on POS tagging, NER and CCG supertagging
+> show that the proposed model not only improves the overall tagging accuracy
+> with similar number of parameters, but also significantly speeds up the
+> training and testing compared to BiLSTM-CRF.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1908.08676) - [GitHub repo](https://github.com/Nealcly/LAN)]
+
+## RoBERTa: A Robustly Optimized BERT Pretraining Approach
+
+Authors: Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov
+
+Abstract:
+
+> Language model pretraining has led to significant performance gains but careful
+> comparison between different approaches is challenging. Training is
+> computationally expensive, often done on private datasets of different sizes,
+> and, as we will show, hyperparameter choices have significant impact on the
+> final results. We present a replication study of BERT pretraining
+> (Devlin et al., 2019) that carefully measures the impact of many key
+> hyperparameters and training data size. We find that BERT was significantly
+> undertrained, and can match or exceed the performance of every model published
+> after it. Our best model achieves state-of-the-art results on GLUE, RACE and
+> SQuAD. These results highlight the importance of previously overlooked design
+> choices, and raise questions about the source of recently reported improvements.
+> We release our models and code.
+
+Materials(s): [[Paper](https://arxiv.org/abs/1907.11692) - [`fairseq` GitHub repo](https://github.com/pytorch/fairseq)]
+
 ## Sequence Tagging with Contextual and Non-Contextual Subword Representations: A Multilingual Evaluation
 
 Authors: Benjamin Heinzerling, Michael Strube
