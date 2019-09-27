@@ -6,6 +6,57 @@ architectures, classification, neural machine translation and many more.
 
 # 2019
 
+## ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
+
+Authors: (currently) Anonymous
+
+Abstract:
+
+> While masked language modeling (MLM) pre-training methods such as BERT produce
+> excellent results on downstream NLP tasks, they require large amounts of
+> compute to be effective. These approaches corrupt the input by replacing some
+> tokens with [MASK] and then train a model to reconstruct the original tokens.
+> As an alternative, we propose a more sample-efficient pre-training task called
+> replaced token detection. Instead of masking the input, our approach corrupts
+> it by replacing some input tokens with plausible alternatives sampled from a
+> small generator network. Then, instead of training a model that predicts the
+> original identities of the corrupted tokens, we train a discriminative model
+> that predicts whether each token in the corrupted input was replaced by a
+> generator sample or not. Thorough experiments demonstrate this new pre-training
+> task is more efficient than MLM because the model learns from all input tokens
+> rather than just the small subset that was masked out. As a result, the
+> contextual representations learned by our approach substantially outperform the
+> ones learned by methods such as BERT and XLNet given the same model size, data,
+> and compute. The gains are particularly strong for small models; for example,
+> we train a model on one GPU for 4 days that outperforms GPT (trained using 30x
+> more compute) on the GLUE natural language understanding benchmark.
+> Our approach also works well at scale, where we match the performance of
+> RoBERTa, the current state-of-the-art pre-trained transformer, while using
+> less than 1/4 of the compute.
+
+Materials(s): [[OpenReview Paper](https://openreview.net/forum?id=r1xMH1BtvB)]
+
+## ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+
+Authors: (currently) Anonymous
+
+Abstract:
+
+> Increasing model size when pretraining natural language representations often
+> results in improved performance on downstream tasks. However, at some point
+> further model increases become harder due to GPU/TPU memory limitations,
+> longer training times, and unexpected model degradation. To address these
+> problems, we present two parameter-reduction techniques to lower memory
+> consumption and increase the training speed of BERT. Comprehensive empirical
+> evidence shows that our proposed methods lead to models that scale much better
+> compared to the original BERT. We also use a self-supervised loss that focuses
+> on modeling inter-sentence coherence, and show it consistently helps downstream
+> tasks with multi-sentence inputs. As a result, our best model establishes new
+> state-of-the-art results on the GLUE, RACE, and SQuAD benchmarks while having
+> fewer parameters compared to BERT-large. 
+
+Materials(s): [[OpenReview Paper](https://openreview.net/forum?id=H1eA7AEtvS)]
+
 ## Small and Practical BERT Models for Sequence Labeling
 
 Authors: Henry Tsai, Jason Riesa, Melvin Johnson, Naveen Arivazhagan, Xin Li, Amelia Archer
